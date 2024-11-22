@@ -1,0 +1,5 @@
+/DEV/*
+/SIM/*
+/IP/*
+!//DEV/*.qpf
+!/SIM/source
