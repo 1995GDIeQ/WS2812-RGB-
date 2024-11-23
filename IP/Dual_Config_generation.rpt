@@ -1,0 +1,36 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate E:\Project\Quartus\T-core\project\RGB_Ex\DEV\Dual_Config.qsys --block-symbol-file --output-directory=E:\Project\Quartus\T-core\project\RGB_Ex\IP --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading DEV/Dual_Config.qsys
+Progress: Reading input file
+Progress: Adding Dual_Config [altera_dual_boot 20.1]
+Progress: Parameterizing module Dual_Config
+Progress: Adding clk_0 [clock_source 20.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: Dual_Config.Dual_Config: Dual_Config.avalon must be connected to an Avalon-MM master
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate E:\Project\Quartus\T-core\project\RGB_Ex\DEV\Dual_Config.qsys --synthesis=VERILOG --output-directory=E:\Project\Quartus\T-core\project\RGB_Ex\IP\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading DEV/Dual_Config.qsys
+Progress: Reading input file
+Progress: Adding Dual_Config [altera_dual_boot 20.1]
+Progress: Parameterizing module Dual_Config
+Progress: Adding clk_0 [clock_source 20.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: Dual_Config.Dual_Config: Dual_Config.avalon must be connected to an Avalon-MM master
+Info: Dual_Config: Generating Dual_Config "Dual_Config" for QUARTUS_SYNTH
+Info: Dual_Config: generating top-level entity altera_dual_boot
+Info: Dual_Config: "Dual_Config" instantiated altera_dual_boot "Dual_Config"
+Info: rst_controller: "Dual_Config" instantiated altera_reset_controller "rst_controller"
+Info: Dual_Config: Done "Dual_Config" with 3 modules, 7 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
