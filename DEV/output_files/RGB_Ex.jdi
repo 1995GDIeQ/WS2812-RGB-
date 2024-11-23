@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="e8e3a14696c6458d2c99"/>
+  </project>
+  <file_info>
+    <file device="10M50DAF484C7G" path="RGB_Ex.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="Dual_Config:u_Dual_Config" name="u_Dual_Config">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME Dual_Config HAS_SOPCINFO 1 GENERATION_ID 1639806382"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>

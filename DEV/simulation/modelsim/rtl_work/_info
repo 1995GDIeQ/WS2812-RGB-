@@ -1,0 +1,36 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Project/Quartus/T-core/project/RGB_Ex/DEV/simulation/modelsim
+vTimePlues
+!s110 1651303905
+!i10b 1
+!s100 ?bmQHlnJ=ezd>_<Wj_z1j1
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I^abRzm:Tz8>5]<VUT<<7D1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1636747789
+8E:/Project/Quartus/T-core/project/RGB_Ex/RTL/TimePlues.v
+FE:/Project/Quartus/T-core/project/RGB_Ex/RTL/TimePlues.v
+!i122 0
+L0 2 43
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1651303905.000000
+!s107 E:/Project/Quartus/T-core/project/RGB_Ex/RTL/TimePlues.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/Quartus/T-core/project/RGB_Ex/RTL|E:/Project/Quartus/T-core/project/RGB_Ex/RTL/TimePlues.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+E:/Project/Quartus/T-core/project/RGB_Ex/RTL
+tCvgOpt 0
+n@time@plues

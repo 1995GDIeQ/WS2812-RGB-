@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at Divider_Clock.v(73): always construct contains both blocking and non-blocking assignments File: E:/Project/Quartus/T-core/project/RGB_Ex/RTL/Divider_Clock.v Line: 73

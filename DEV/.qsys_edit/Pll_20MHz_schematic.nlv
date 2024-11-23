@@ -1,0 +1,11 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst Pll_20MHz.Pll_20MHz -pg 1 -lvl 2 -y 40
+preplace inst Pll_20MHz -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst Pll_20MHz.clk_0 -pg 1 -lvl 1 -y 40
+preplace netloc EXPORT<net_container>Pll_20MHz</net_container>(MASTER)Pll_20MHz.c0,(MASTER)Pll_20MHz.pll_20mhz_c0) 1 2 1 N
+preplace netloc EXPORT<net_container>Pll_20MHz</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)Pll_20MHz.reset) 1 0 1 N
+preplace netloc POINT_TO_POINT<net_container>Pll_20MHz</net_container>(SLAVE)Pll_20MHz.inclk_interface_reset,(MASTER)clk_0.clk_reset) 1 1 1 N
+preplace netloc FAN_OUT<net_container>Pll_20MHz</net_container>(MASTER)clk_0.clk,(SLAVE)Pll_20MHz.inclk_interface,(SLAVE)clk_0.clk_in) 1 0 2 80 30 280
+levelinfo -pg 1 0 50 610
+levelinfo -hier Pll_20MHz 60 110 310 500
